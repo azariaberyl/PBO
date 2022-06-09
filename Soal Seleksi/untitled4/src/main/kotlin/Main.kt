@@ -26,7 +26,7 @@ fun main(args: Array<String>) {
     val nSearch = readLine()!!.toInt();
     val numbers: MutableList<Int> = mutableListOf();
     for (x in 1..nArray){
-        numbers.add(x)
+        numbers.add(readLine()!!.toInt())
     }
     var index = 0;
     for (x in numbers){
